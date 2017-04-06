@@ -1,0 +1,196 @@
+/* ===== MAIN ===== */
+
+.homearticle {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  /*font-size: 18px;*/
+  width: 18.75em;
+  padding-top: 1em;
+}
+
+.imagemain {
+  border: 1px solid #242323;
+  box-shadow: 0px 0px 1px #4d4d4d;
+  display: block;
+  margin: 0 auto;
+}
+
+.linkunder {
+	text-decoration: underline;
+	}
+
+/* ===== CV PAGE ===== */
+
+.cvbox {
+	background-color: rgba(36,35,35, 0.25);
+	box-shadow: 0px 0px 1px #4d4d4d;
+	padding: 1em;
+	border: 1px solid #242323;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	/* font-weight: bold; */
+	letter-spacing: 0.1em;
+	margin-top: 2em;
+	box-sizing: border-box;
+}
+
+.cvheader {
+  text-align: center;
+}
+
+.lesslinespacing {
+  line-height: 0.5em;
+}
+
+.cvindent {
+  text-indent: 3em;
+}
+
+.journal {
+  font-style: italic;
+}
+
+.margintop {
+  margin-top: 2em;
+}
+
+.references {
+  -webkit-column-count: 2; /*Chrome, Safari, Opera */
+  -moz-column-count: 2; /*Firefox */
+  column-count: 2;
+}
+
+.referencesmargin {
+  margin-top: 4em;
+}
+
+.cvpage {
+  border: 1px solid #242323;
+  box-shadow: 0px 0px 1px #4d4d4d;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 1em 4em;
+}
+
+.floatright {
+  float: right;
+}
+
+
+/* ===== RESEARCH PAGE ===== */
+
+.researchpage{
+  padding: 0 2em;
+  /*border: 0.5px solid #242323;*/
+  box-sizing: border-box;
+  /*background-color: #fff;*/
+	}
+
+.cover {
+  float: left;
+  width: 101px;
+  margin-top: 1.5em;
+  border: 1px solid #242323;
+  box-shadow: 0px 0px 1px #4d4d4d;
+}
+
+.journallink {
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 1em;
+	}
+	
+h4 {
+	font-weight: 400;
+	font-size: 1em;
+	font-style: italic;
+	}
+
+.abstract {
+  float: right;
+  width: 750px;
+}
+
+.journaltitle {
+  font-family: "EB Garamond", serif;
+  font-size: 1.25em;
+}
+
+.clear {
+  clear: both;
+}
+
+.abstractmargin {
+  margin-top: 3em;
+}
+
+.normal {
+	font-style: normal;
+	}
+
+/* ===== TEACHING PAGE ===== */
+
+.teachingpage {
+	padding: 0 2em;
+	}
+
+table {
+  margin: 1.5em auto 0.5em;
+  border-collapse: collapse;
+  border: 1px solid #242323;
+  width: 95%;
+  box-shadow: 0px 0px 1px #4d4d4d;
+}
+
+.tablehead {
+	background-color: rgba(36,35,35,0.95);
+	color: #fff;
+	text-align: center;
+}
+
+.subject {
+  border-bottom: 0.5px solid #242323;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+.tableodd {
+  text-align: center;
+}
+
+.tableeven {
+	text-align: center;
+	background-color: rgba(36,35,35,0.25);
+}
+
+.boldrow {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.italicrow {
+  font-style: italic;
+}
+
+.transcript {
+  font-style: italic;
+  text-indent: 2em;
+}
+
+.topspacing {
+  margin-top: 1.5em;
+}
+
+.syllabi {
+	padding: 0 2em;
+	}
+	
+.syllabi2 {
+	padding: 0 1em;
+	}
