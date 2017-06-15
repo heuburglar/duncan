@@ -51,14 +51,14 @@ img {
 
 .page {
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   padding: 0.6em 3.75em 3.75em;
   margin-top: 2.5em;
   margin-bottom: 2.5em;
 }
 
 main {
-  width: 60em;
+  max-width: 60em;
   margin: 4% auto;
 }
 
@@ -73,7 +73,7 @@ header {
 
 .masthead {
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 .logo {
@@ -119,6 +119,58 @@ header {
 	color: #8B8B8B;
 }
 
+/* @media (max-width: 640px) {
+	.navigation {
+		padding: 0;
+		background-color: #242323;
+		color: #fff;
+	}
+
+	.navmain {
+		margin: 0 auto;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+		border: none;
+
+	}
+
+	.navmain li {
+    display: block;
+    margin: 0 auto;
+		border: none;
+		text-align: center;
+  }
+
+	.navmain li:first-child {
+    margin: 0 auto;
+  }
+
+	.navmain a {
+    text-align: center;
+    padding: 0.625rem;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+	.navmain li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 440px) {
+	.imagemain {
+		width: 100%;
+		height: auto;
+	}
+} */
+
+
+
+
+
 /* ===== MAIN ===== */
 
 .homearticle {
@@ -127,7 +179,7 @@ header {
   margin: 0 auto;
   text-align: center;
   /*font-size: 18px;*/
-  width: 18.75em;
+  max-width: 18.75em;
   padding-top: 1em;
 }
 
@@ -232,7 +284,7 @@ h4 {
 
 .abstract {
   float: right;
-  width: 750px;
+  max-width: 750px;
 }
 
 .journaltitle {
