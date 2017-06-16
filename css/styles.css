@@ -398,6 +398,10 @@ footer {
 		color: #e8e8e8;
 	}
 
+	.evaluations {
+		display: none;
+	}
+
 }
 
 @media (max-width: 400px) {
